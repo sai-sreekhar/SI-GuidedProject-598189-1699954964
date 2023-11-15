@@ -1,6 +1,6 @@
 # SI-GuidedProject-598189-1699954964
 
-Project Title: Image Caption Generation
+**Project Title: Image Caption Generation**
 
 Team Members:
 
