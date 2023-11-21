@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../index.css";
 import Result from "./Result";
 
@@ -11,7 +11,7 @@ const ImageCaptionGenerator = () => {
     setSelectedFile(img);
   };
 
-  const handleGenerateCaption = (event) => {
+  const handleGenerateCaption = () => {
     if (selectedFile) setBool(true);
     else {
       window.alert("Select image first");
