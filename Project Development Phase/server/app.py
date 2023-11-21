@@ -4,7 +4,6 @@ import numpy as np
 from keras.applications import ResNet50
 from keras.layers import Dense, LSTM, TimeDistributed, Embedding, RepeatVector,Concatenate
 from keras.models import Sequential, Model
-import cv2
 from keras.preprocessing.sequence import pad_sequences
 from flask_cors import CORS
 
